@@ -21,7 +21,7 @@ import java.time.LocalTime;
 import java.util.List;
 
 @RestController
-@RequestMapping("/weather")
+//@RequestMapping("/weather")
 public class WeatherController {
 
 	
@@ -51,7 +51,7 @@ public class WeatherController {
      * @param endTime
      * @return
      */
-    @GetMapping(path = "/{name}/{startTime}/{endTime}")
+    @GetMapping( "/weather/{name}/{startTime}/{endTime}")
     public FinalEntity get(@PathVariable("name") String name, @PathVariable("startTime") String startTime, @PathVariable("endTime") String endTime) {
         long start =  System.currentTimeMillis();
         try {

@@ -13,8 +13,4 @@ public class TinyWheatherForcastBulletinApplication {
 		SpringApplication.run(TinyWheatherForcastBulletinApplication.class, args);
 	}
 
-	@RequestMapping("/")
-	public String welcome() {
-		return "welcome to tiny wheather app...!!!";
-	}
 }
