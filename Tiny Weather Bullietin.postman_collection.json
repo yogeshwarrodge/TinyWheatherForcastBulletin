@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "279f6cbc-7220-48bc-9ff2-109db1d0820c",
+		"name": "Tiny Weather Bullietin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Weather Deatils By City Name and Hours",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/weather/London/10:30:00/18:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weather",
+						"London",
+						"10:30:00",
+						"18:00:00"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

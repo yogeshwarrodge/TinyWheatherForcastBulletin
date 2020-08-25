@@ -1,0 +1,8 @@
+api-key: 1b6e7f5e19b857945c1c19f2ab3ec54d
+default:
+  startTime: 10:00:00
+  endTime: 18:00:00
+startDay: 1
+endDay: 3
+url: http://api.openweathermap.org/data/2.5/forecast
+description: Weather forecast for three days
